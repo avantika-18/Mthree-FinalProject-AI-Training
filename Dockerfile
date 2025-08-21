@@ -6,7 +6,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY api/ ./api
-COPY models/ ./models  # Assuming models directory contains necessary files
+COPY models/ ./models  
 
 EXPOSE 8000
 
