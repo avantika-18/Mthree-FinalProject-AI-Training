@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+
+# Data files
+cal_housing.csv
+*.csv
+*.tsv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MLflow and DVC artifacts
+mlruns/
+.dvc/
+mlflow.db
+mlartifacts/
+
+# Logs and outputs
+*.log
+*.out
+
+# OS-specific
+.DS_Store
+Thumbs.db
